@@ -7,18 +7,18 @@ while True:
     print("2 - fazer login")
     print("3 - Sair")
 
-    opcao = (input(" Escolha uma opcao: "))
+    opcao = input(" Escolha uma opcao: ")
     #funcionalidades
        #se
-       if (opcao == 1):
+       if (opcao == "1"):
          print("==========================")
          print("=====Tela de cadastro=====")
          print("==========================")
-       elif (opcao == 2):
+       elif (opcao == "2"):
          print("==========================")
          print("sistema de login")
          print("==========================")
-      elif(opcao == 3):
+      elif(opcao == "3"):
            print("voce esta saindo do aplicativo, ate mais!")jn
            break
       else:
