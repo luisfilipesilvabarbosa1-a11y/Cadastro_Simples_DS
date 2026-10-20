@@ -18,5 +18,9 @@ while True:
          print("==========================")
          print("sistema de login")
          print("==========================")
-        else:
+      elif(opcao == 3):
+           print("voce esta saindo do aplicativo, ate mais!")jn
            break
+      else:
+           print("valor digitado, invalido, use apenas números inteiros do menu")
+          
